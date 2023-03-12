@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: sources 
+    database: mongodb
+    schema: Sales
+    tables:
+      - name: specialofferproduct      
+      - name: salesorderheader
+      - name: customer
+      - name: salesorderdetail
+
+
+  - name: sources 
+    database: mongodb
+    schema: Production
+    tables:
+      - name: Product
+    
+
+  - name: sources 
+    database: mongodb
+    schema: person
+    tables:
+      - name: person
+
